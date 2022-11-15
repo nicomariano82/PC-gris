@@ -1,0 +1,19 @@
+/* comentarios en Css*/
+/* Selectores */
+
+h1{color:red}
+p{color:blue}
+/*si yo tengo varios p en VSC debo usar el comando class   */
+
+.textoRojo{
+    color: red;
+}
+
+#untexto{
+    background-color: rgba(96, 121, 117, 0.9);
+}
+
+/* color = color de las letras 
+background-color = color de fondo */
+/* h1 es un bloque*/
+/* a = un vinculo de una seccion*/
