@@ -1,0 +1,117 @@
+/* comentarios en CSS */
+/* Selectores */
+
+/* selector por etiqueta*/
+/* a todos los elementos <p> les asigna las propiedades definidas */
+
+
+/* *{} = esto significa que le doy propiedades globales a todo la pagiana o html x Ejemplo de texto   */
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+/* google font nos porvee de tipografias de forma gratuita */
+}
+
+body{
+    background-color:rgb(70, 209, 112); 
+   }
+
+h1{
+    background-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 400px;/* unidad fija*/
+    height:5vh;/*propiedad del alto de un elemento*/
+   display: inline-block;/* cambia el comportamiento del elemento de bloque a linea */
+}
+ h2{ 
+    font-family: 'Patrick Hand', cursive; /* asi me dice goolge font que debo usar la tipogafia que agregue con ilink en html
+ }
+
+/* unidades: px - % - vh - vw 
+1 rem, 14en -> 16 px , */
+/* no hacer tamaño de letras menores a 14 px  */ 
+/*p{
+    color: black;
+    /*background-color: #3498db; 
+     
+}
+
+
+
+/*
+button{
+    background-color: rgb(255, 192, 203);
+     margin-right: 80px; 
+    /* margin: 80px; 
+}
+
+/*
+a{
+    background-color: tomato;
+    color: white;
+    width: 100px;
+    /* padding-bottom:10px ; */
+    /*padding: 10px;
+    border:black 2px solid ;/*3 valores : el color el grosor y el tipo de borde*/
+    /*border-radius: 20px;/* redondear los bordes*/
+    /*display: block;
+}
+/* selectores de clase */
+/* .nombreDeLaClase */
+/*
+.textoRojo{
+    color: red;
+}
+
+.letras{
+    color: blue;
+}
+
+/* selectores por id */
+
+/*#unTexto{
+    background-color: orange;
+}
+
+/*img{
+    /*width:40px ;/* ancho de un elemento
+    height: 100vh;
+}*/
+
+/*ul{
+    width: 800px;
+    height: 100px;
+    background-color: red;
+}
+
+/*li{
+    width: 50%;/*400px
+    height: 25%;
+    background-color: blueviolet;
+}*/
+
+/* div{
+    width: 300px;
+    height: 400px;
+    background-image: url(../Clase2/imagenes/paisaje.jpeg);/* colocar una imagen de fondo} */
+
+
+/* le va a colocar a los elementos todas las propiedades que le asigne */
+/* mas general por etiqueta , el por clase , el de id */
+/* 
+color : propiedad de color tipografico  
+*/
+/* definir colores:
+    ROJO - VERDE - AZUL 
+ hexadecimal # A-F 0-9 
+ rgb (red, green, blue) : 0 al 255
+ - rgba()transparencia  (0 al 1) 
+ colores predefinidos por CSS
+
+*/
+/* UNIDADES
+
+porcentaje (%) toma com 100% la medida del padre para saber cuanto va a valer el hijo
+*/
+/* 25vh view height -> 25% del alto de la pantalla 
+    50vw view width -> 50% del ancho de pantalla
+*/
