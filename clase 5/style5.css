@@ -1,0 +1,68 @@
+.container{
+    background-color: aqua;
+    /*position: relative;*/
+}
+.cubo{
+    width: 150px;
+    height: 150px;
+    background-color: brown;
+    border: 2px solid black;
+    margin: 10px;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.uno{
+    background-color: rgb(231, 168, 31);
+    position: relative;
+    top: 100px;
+    left: 190px;
+    
+    /*left - left - right - bottom*/
+    
+}
+
+.dos{
+    background-color: rgb(231, 31, 58);
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    /* absolute: busca al padre con posicion relative nmas cercano y lo toma como referencia 
+    en nuestro caso es cointainer
+    si no hay ninguno toma el body*/
+   
+}
+
+.fondo{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    
+}
+
+.textointerno{
+    position: absolute;
+    top: 50px;
+    left: 45px;
+}
+
+img{
+    width: 100%;
+}
+
+.tres{
+    background-color: rgb(61, 31, 231);
+    position: fixed;/* toma de referencia al body*/
+    bottom: 10px;
+    right: 10px;
+    z-index:1 ; /* indica el plano en que quiero ubicarlo*/
+      
+}
+/*Sticky 
+se comporta relative hasta qque se hace scroll */
+.cuatro{
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+
+}
