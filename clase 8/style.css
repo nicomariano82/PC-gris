@@ -1,0 +1,11 @@
+img{
+    width: 100%;
+}
+
+.efectouno:hover{
+filter:blur(3px)
+}
+
+.efectodos:hover{
+    filter:invert(3px)
+    }
