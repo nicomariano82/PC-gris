@@ -1,5 +1,5 @@
 img{
-    width: 100%;
+    width: 20%;
 }
 
 .efectouno:hover{
@@ -7,5 +7,9 @@ filter:blur(3px)
 }
 
 .efectodos:hover{
-    filter:invert(3px)
+    filter:invert(100)
     }
+
+.efectotres:hover{
+    filter:opacity(0.5)
+}

@@ -1,0 +1,26 @@
+
+
+.encabezado{ 
+    background-color: rgb(250, 234, 16);
+    display:flex; 
+}
+
+.logocamion{
+    width: 200px;
+    margin-left: 20px;
+    margin-top: 3px;
+}
+/* p{
+    text-size-adjust: 4rem;
+} */
+i{
+    width: ;
+}
+p{
+    border-right-width: 2px;
+    border-right-style:solid;
+    border-right-color: rgb(207, 206, 206);
+}
+
+
+
