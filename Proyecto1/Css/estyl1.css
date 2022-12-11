@@ -1,26 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   }
 
+/* Formato del lo que estadentro del Header  */
 
+/* Propiedades propias del Header (Padre) con clase encabezado */
 .encabezado{ 
     background-color: rgb(250, 234, 16);
     display:flex; 
+    width: 100vw;
+    height: 120px;
 }
 
+
+
+/* Formato del logo */
 .logocamion{
-    width: 200px;
+    width: 350px;
     margin-left: 20px;
-    margin-top: 3px;
+    margin-top: 5px;
 }
-/* p{
-    text-size-adjust: 4rem;
-} */
-i{
-    width: ;
-}
+
 p{
     border-right-width: 2px;
     border-right-style:solid;
     border-right-color: rgb(207, 206, 206);
+    font-size: 20px;
+    font-weight: bold;
+    
+    margin-right: 10px;
+    padding-right: 10px;
+    color: black;
 }
 
+.icon{
+    Color: rgb(70, 13, 13);
+    font-size: 15px;
+    
+}
 
-
+.clientes{
+    padding: 10px;
+    background-color: rgb(154, 247, 247);
+    border: none;
+    font-size: 20px;
+}
