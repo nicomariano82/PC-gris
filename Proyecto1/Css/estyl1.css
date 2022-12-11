@@ -28,15 +28,22 @@ p{
     border-right-color: rgb(207, 206, 206);
     font-size: 20px;
     font-weight: bold;
-    
-    margin-right: 10px;
-    padding-right: 10px;
+    text-align: center;
+    /* margin: 10px; */
+    padding-right: 15px;
+    padding-left: 15px;
     color: black;
+}
+div{
+    text-align: center;
+    /* margin-right: 15px; */
+    /* margin-left: 15px; */
 }
 
 .icon{
     Color: rgb(70, 13, 13);
     font-size: 15px;
+    
     
 }
 
