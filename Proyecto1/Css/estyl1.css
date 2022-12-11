@@ -7,19 +7,36 @@
 
 /* Propiedades propias del Header (Padre) con clase encabezado */
 .encabezado{ 
-    background-color: rgb(250, 234, 16);
+    /* background-color: rgb(250, 234, 16); */
     display:flex; 
     width: 100vw;
     height: 120px;
+    align-items:flex-end;
+    border-bottom: solid;
 }
-
-
 
 /* Formato del logo */
 .logocamion{
     width: 350px;
     margin-left: 20px;
     margin-top: 5px;
+    margin-bottom: none;
+}
+.llama{
+    flex-grow: 1;
+}
+.logo{
+flex-grow: 2;
+}
+div{
+    text-align: center;
+    margin-bottom: 20px;
+      
+}
+
+.icon{
+    Color: rgb(70, 13, 13);
+    font-size: 15px;        
 }
 
 p{
@@ -33,17 +50,6 @@ p{
     padding-right: 15px;
     padding-left: 15px;
     color: black;
-}
-div{
-    text-align: center;
-    /* margin-right: 15px; */
-    /* margin-left: 15px; */
-}
-
-.icon{
-    Color: rgb(70, 13, 13);
-    font-size: 15px;
-    
     
 }
 
@@ -52,4 +58,5 @@ div{
     background-color: rgb(154, 247, 247);
     border: none;
     font-size: 20px;
+    margin-right: 50px;
 }
