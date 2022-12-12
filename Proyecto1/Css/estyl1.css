@@ -15,6 +15,11 @@
     border-bottom: solid;
 }
 
+/* li{
+    list-style-image: url(example.png);
+    list-style-image: ;
+    color: red;
+} */
 /* Formato del logo */
 .logocamion{
     width: 350px;
@@ -22,23 +27,40 @@
     margin-top: 5px;
     margin-bottom: none;
 }
-.llama{
+
+
+    /* <div style="display: flex">
+        <i class="fas fa-info-circle" style="color: blue;"></i>
+        <div style="margin-left: 10px">Todas las manzanas han sido asignadas a un supervisor</div>
+    </div> */
+
+.prueba{
     flex-grow: 1;
+    /*text-align: center;*/
+    background-color: red;
+    margin-bottom: 0px;
+
 }
+
 .logo{
 flex-grow: 2;
 }
+
 div{
     text-align: center;
     margin-bottom: 20px;
-      
+          
 }
 
 .icon{
-    Color: rgb(70, 13, 13);
-    font-size: 15px;        
+    Color: rgb(41, 33, 188);
+    font-size: 15px;
 }
 
+.llama{
+    display: flex;
+    
+    }
 p{
     border-right-width: 2px;
     border-right-style:solid;
