@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+
+}
+
+/* esto significa que a las "a" que son sus hijos le de es margen */
+nav > a {
+    margin-left: 15px;
+
+}
+
+.hamburguesa{
+    color: black;
+    display:none;
+    cursor: pointer;
+    font-size: 32px;
+
+}
+/* como a los 450 px se rompe hacemos algo */
+@media(max-width:500px){
+    /* body{
+        background-color: red;
+    /* } sirve para corroborar errore
+    */  
+    nav,div {
+      display: none; 
+    }
+ 
+    .hamburgesa{
+        display: block;
+        color: black;
+    } 
+
+    /* header{
+        display: flex;
+        flex-direction: column;
+    } */
+}
+
+.contenedorHero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url(./imagen/nieve.jpg)
+}
+
+.tituloHero{
+    font-size: 4rem ;  /*no usar px para texto, texto siempre rem. para imagens utilizar %*/
+    text-transform: uppercase;
+    color: white;
+    padding: 1.5rem 0; 
+    text-align: center;
+    }
+.textoHero{
+    font-size: 1rem;
+    color: white;
+    background-color: red;
+    max-width: 50%;
+    text-align: center;
+    padding-bottom: 2rem; /*se puede usar margin tmb*/
+}
+
+button{
+    padding: 0.9rem 1.6rem;
+    border: 1px solid white;
+    color: black;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    cursor:pointer;
+    background-color: white;
+}
+
+button:hover{
+    background: transparent;
+    color: transparent;
+    border-color: red;
+}
+    
+

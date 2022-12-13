@@ -1,0 +1,44 @@
+div{
+    background-color: aqua;
+}
+
+/* media quierie */
+/* 
+@media (max-width:600px) {
+
+div{
+    background-color: red;
+}
+}
+/* en cascado, es decir lo de abajo gana a lo de arriba */
+/* @media(max-width:900px) {
+div{
+    background-color: green;
+    }
+}
+
+/* entre 900 y 800 toma rojo*/
+/* @media(min-width:800px) {
+    div{
+        background-color: red;
+        }
+    } */ 
+
+
+    /* combinada*/
+/*{@media(min-width:800px) and (max-width:1200px){
+        div{
+            background-color:red;
+            }
+        }
+*/
+
+/* @media (orientation:landscape) {
+    div{ background-color: aliceblue;
+    }
+}
+
+@media (orientation:portrait) {
+    div{ background-color: rgb(54, 108, 155);
+    }
+} */
