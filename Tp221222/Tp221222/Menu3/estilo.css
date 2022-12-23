@@ -23,12 +23,17 @@ header{
 .lupa{
     background-color:aliceblue;
     border-radius: 4rem;
+    padding-top: 0.4rem;
     
 }
 
+.ilupa{
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+}
 
 input{
-    border: none;
+    border: transparent;
     background-color: transparent;
     padding: 0.5rem 0.5rem 1rem 0rem;
     
