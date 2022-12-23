@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: aliceblue;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    height: 5rem;
+    }
+
+.contenedorlogomenu{
+    display: flex;
+    align-items: center;
+    margin-left: 4rem;
+}
+
+.contenedorlogo{
+    align-items: center;
+}
+
+.logo{
+    width: 180px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family:sans-serif;
+    font-size: 1.25rem;
+    font-weight: bold;
+    
+}
+
+
+/* esto significa que a las "a" que son sus hijos le de es margen */
+nav > a {
+    margin-left: 2rem;
+    }
+
+i{
+    margin-left: 2rem;
+}
+
+.dialogo{
+    display: flex;
+    align-items: center;
+    margin-right: 4rem;
+}
+
+
+.messi{
+    width: 40px;
+    border-radius: 50px;
+    margin-left: 2rem;
+    
+}
+
+
+

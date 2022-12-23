@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: aliceblue;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    height: 6rem;
+    }
+
+
+
+.logo{
+    width: 180%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family:sans-serif;
+    font-size: 1.25rem;
+    font-weight: bold;
+
+}
+
+/* esto significa que a las "a" que son sus hijos le de es margen */
+nav > a {
+    margin-left: 4.25rem;
+
+}
+
+button{
+    padding: 0.9rem 1.6rem;
+    border: 1px solid white;
+    margin-left: 1rem;
+    color: white;
+    font-size: 1.25rem;
+    cursor:pointer;
+    background-color: rgb(57, 141, 230);
+    border-radius: 15px;
+}
