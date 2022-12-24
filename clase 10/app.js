@@ -178,139 +178,164 @@ if (mes == 1 || mes == 2 || mes == 3) {
 } */
 
 
-// EJERCICIO 1
-let nombre = prompt('Ingrese nombre')
-console.log('EJERCICIO NRO. 1')
-console.log('El nombre ingresado es:', nombre)
+// // EJERCICIO 1
+// let nombre = prompt('Ingrese nombre')
+// console.log('EJERCICIO NRO. 1')
+// console.log('El nombre ingresado es:', nombre)
 
-// EJERCICIO 2
+// // EJERCICIO 2
 
-let edad = /*parseInt*/(prompt('ingrese edad:'))
-console.log('EJERCICIO NRO. 2')
-console.log('la edad ingresada es:', edad)
+// let edad = /*parseInt*/(prompt('ingrese edad:'))
+// console.log('EJERCICIO NRO. 2')
+// console.log('la edad ingresada es:', edad)
 
-// EJERCICIO 3 
+// // EJERCICIO 3 
 
-console.log('EJERCICIO NRO. 3')
-let tieneHijos= true
+// console.log('EJERCICIO NRO. 3')
+// let tieneHijos= true
 
-if (tieneHijos = true){
-    console.log('Tiene hijos')
+// if (tieneHijos = true){
+//     console.log('Tiene hijos')
+// }else{
+//     console.log('No tiene hijos')
+// }
+
+// // PRODRIAMOS PEDIR LA CANTIDAD DE HIJOS Y ANALIZARLA.
+
+// // EJERCICIO 4
+
+// let salario=parseInt(prompt('Ingrese Salario Mensual:'))
+// console.log('EJERCICIO NRO. 4')
+// salarioAnual = salario * 12
+
+// console.log('El salario Anual es:' , salarioAnual)
+
+// // EJERCICIO 5
+
+// console.log('EJERCICIO NRO. 5')
+// let edad1 = parseInt(prompt('Ingrese edad:'))
+
+// if (edad1 >= 18){
+//     console.log('Eres mayor de edad')
+// }else{
+//     console.log('Eres menor de edad')
+// }
+
+// // EJERCICIO 6
+// console.log('EJERCICIO NRO. 6')
+
+// tieneHijos == true
+
+//  if (tieneHijos == true) {
+//   console.log('Tiene hijos')
+// } else {
+//   console.log('No tienes hijos')
+//  }
+
+//  //Ejercicio 7
+
+// let genero = prompt('Ingrese genero: hombre/mujer')
+// console.log('EJERCICIO NRO. 7')
+// if (genero == 'hombre') {
+//    console.log('Eres hombre')
+// } else {
+//    if (genero == 'mujer') {
+//       console.log('Eres mujer')
+//   } else {
+//       console.log('otro genero')
+// }
+// }
+
+// //Ejercicio 8
+// console.log('EJERCICIO NRO. 8')
+// let ladoCuadrado = parseInt(prompt('Ingresar medida de un lado'))
+// let perimetro = ladoCuadrado*4
+// console.log('El perimetro del cuadrado es:', perimetro)
+
+// //Ejercicio 9
+// console.log('EJERCICIO NRO. 9')
+// let numero1 = parseInt(prompt('Ingresar primer numero'))
+// console.log('el primer numero es:', numero1)
+// let numero2 = parseInt(prompt('Ingresar segundo numero'))
+// console.log('el segundo numero es:', numero2)
+// let numero3 = parseInt(prompt('Ingresar tercer numero'))
+// console.log('el tercer numero es:', numero3)
+// let numero4 = parseInt(prompt('Ingresar cuarto numero'))
+// console.log('el cuerto numero es:', numero4)
+
+// let respuesta1 = numero1+numero2
+// console.log('la suma de los dos premero es:',respuesta1)
+// let respuesta2 = numero3*numero4
+// console.log('la multiplicacion de los dos ultimos es:', respuesta2)
+
+// // //Ejercicio 10
+// console.log('EJERCICIO NRO. 10')
+// let numeroDigito = parseInt(prompt('Ingresar numero: de 1 al 99'))
+// if(numeroDigito >= 10){
+//  console.log("el numero ingresado tiene 2 digitos")
+// }else{
+//   console.log("el numero ingresado tiene 1 digito")
+// }
+
+//  //Ejercicio 11
+//  console.log('EJERCICIO NRO. 11')
+// let valor = parseInt(prompt('Ingrese un numero entero'))
+// if (valor > 0) {
+//   console.log('el numero ingresado es positivo')
+//  } else {
+//    if (valor == 0) {
+//        console.log('el numero ingresado es cero')
+//   } else {
+//   console.log('el numero ingresado es Negativo')
+// }
+//  }
+
+// //Ejercicio 12
+// console.log('EJERCICIO NRO. 12')
+// let edadconducir = parseInt(prompt('Ingrese edad'))
+// let tienePermiso = prompt('Puede conducir: si/no')
+//  if (edadconducir >= 18 && tienePermiso == 'si') {
+//   console.log('Puedes conducir')
+// } else {
+//   console.log('No puedes conducir')
+// }
+
+//  //Ejercicio 13
+//  console.log('EJERCICIO NRO. 13')
+// let tieneDinero = false
+// let tieneTarjeta = false
+// if (tieneDinero || tieneTarjeta) {
+//  console.log('Puedes pagar')
+// } else {
+//   console.log('No tienes suficiente dinero')
+// }
+
+//  //Ejercicio 15
+//  console.log('EJERCICIO NRO. 15')
+// let dia = parseInt(prompt("ingrese dia"))
+// let mes = parseInt(prompt("ingrese mes"))
+// let anio = parseInt(prompt("ingres año"))
+
+// if (dia == 25 && mes == 12){
+//  console.log("La fecha es navidad")
+//  }else{
+//   console.log("La fecha no es navidad")
+//  }
+
+ //Ejercicio 16
+ console.log('EJERCICIO NRO. 16')
+
+ let sueldo = parseInt(prompt("ingrese Sueldo"))
+ let antiguedad = parseInt(prompt("ingrese antiguedad"))
+
+if (sueldo >= 500) {
+ console.log('Usted no recibe aumento y su sueldo es', sueldo)
 }else{
-    console.log('No tiene hijos')
-}
-
-// PRODRIAMOS PEDIR LA CANTIDAD DE HIJOS Y ANALIZARLA.
-
-// EJERCICIO 4
-console.log('EJERCICIO NRO. 4')
-let salario=parseInt(prompt('Ingrese Salario Mensual:'))
-
-salarioAnual = salario * 12
-
-console.log('El salario Anual es:' , salarioAnual)
-
-// EJERCICIO 5
-
-console.log('EJERCICIO NRO. 5')
-let edad1 = parseInt(prompt('Ingrese edad:'))
-
-if (edad1 >= 18){
-    console.log('Eres mayor de edad')
-}else{
-    console.log('Eres menor de edad')
-}
-
-// EJERCICIO 6
-
-//Ejercicio 6
-
-if (tieneHijos == true) {
-  console.log('Tiene hijos')
-} else {
-  console.log('No tienes hijos')
-}
-
-//Ejercicio 7
-
-let genero = prompt('Ingrese genero: hombre/mujer')
-
-if (genero == 'hombre') {
-  console.log('Eres hombre')
-} else {
-  if (genero == 'mujer') {
-      console.log('Eres mujer')
-  } else {
-      console.log('otro genero')
-  }
-}
-
-//Ejercicio 8
-
-let ladoCuadrado = parseInt(prompt('Ingresar medida de un lado'))
-let perimetro = ladoCuadrado*4
-console.log(perimetro)
-
-//Ejercicio 9
-
-let numero = parseInt(prompt('Ingresar primer numero'))
-let numero2 = parseInt(prompt('Ingresar segundo numero'))
-let numero3 = parseInt(prompt('Ingresar tercer numero'))
-let numero4 = parseInt(prompt('Ingresar cuarto numero'))
-
-let respuesta = numero+numero2
-console.log(respuesta)
-let respuesta2 = numero3*numero4
-console.log(respuesta2)
-
-//Ejercicio 10
-
-let numero = parseInt(prompt('Ingresar numero: 1 a 99'))
-if(numero > 9){
-  console.log("tiene 2 digitos")
-}else{
-  console.log("tiene 1 digitos")
-}
-
-//Ejercicio 11
-
-let valor = parseInt(prompt('Ingrese un numero entero'))
-if (valor > 0) {
-  console.log('positivo')
-} else {
-  if (valor == 0) {
-      console.log('cero')
-  } else {
-  console.log('Negativo')
-  }
-}
-
-//Ejercicio 12
-
-let edad = parseInt(prompt('Ingrese edad'))
-let tienePermiso = prompt('Puede conducir: si/no')
-if (edad >= 18 && tienePermiso == 'si') {
-  console.log('Puedes conducir')
-} else {
-  console.log('No puedes conducir')
-}
-
-//Ejercicio 13
-
-let tieneDinero = false
-let tieneTarjeta = false
-if (tieneDinero || tieneTarjeta) {
-  console.log('Puedes pagar')
-} else {
-  console.log('No tienes suficiente dinero')
-}
-
-//Ejercicio 15
-
-let dia = prompt("dia")
-let mes = prompt("mes")
-let anio = prompt("año")
-
-if (dia == 25 && mes == 12){
-  console.log("es navidad")
+   if (sueldo < 500  && antiguedad >= 10) {
+  aumento = sueldo*1.2
+  console.log('su nuevo sueldo es 20% mas:', aumento)
+ }else{
+  aumento = sueldo*1.05
+  console.log('su nuevo sueldo es 5% mas:', aumento)
+ }
 }
