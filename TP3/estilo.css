@@ -15,12 +15,7 @@ html{
         background-color: white;
         height: 6rem;
         }
-      
-    
-    .logo{
-        width: 180px;
-    }
-    
+                
     a{
         text-decoration: none;
         color: black;
@@ -33,21 +28,9 @@ html{
     /* esto significa que a las "a" que son sus hijos le de es margen */
     nav > a {
         margin-left: 3.25rem;
-    
     }
     
-    .btnNav{
-        padding: 0.9rem 1.6rem;
-        border: 1px solid black;
-        margin-left: 1rem;
-        color: black;
-        font-size: 1.25rem;
-        cursor:pointer;
-        background-color: white;
-            }
-
-
-    .btnNav:hover{
+  .btnNav:hover{
         background: black;
         color: white;
         border-color: transparent;
@@ -61,7 +44,7 @@ html{
 } 
  
 
-/* CSS de HERO*/
+/* CSS de HERO
 .hero{
     height: 100vh;
     background-color: aqua;
@@ -85,32 +68,33 @@ html{
 
 .tituloHero{
     font-size: 2rem ;  /*no usar px para texto, texto siempre rem. para imagens utilizar %*/
-    text-transform: uppercase;
+    /* text-transform: uppercase;
     color: black;
     padding: 1.5rem 0; 
     text-align: center;
-    }
-.textoHero{
+    } */
+/* .textoHero{
     font-size: 1rem;
     color: black;
     text-align: center;
     padding-bottom: 2rem; /*se puede usar margin tmb*/
-    text-transform: uppercase;  
+    /* text-transform: uppercase;  
 }
 
 .imagenhero{
     width: 45%;
-}
-.textoDiagonal{
+} */
+/* .textoDiagonal{
     display: flex;
     background-color: green;
     height: 10%;
     justify-content: center;
     align-items: center;
-        
-}
-   
-h2{
+      
+}  */
+
+    
+/* h2{
     color:rgb(206, 26, 26);
        
- }
+ } */
