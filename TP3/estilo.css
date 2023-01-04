@@ -15,43 +15,120 @@ html{
         background-color: white;
         height: 6rem;
         }
-                
-    a{
+      
+     /* esto significa que a las "a" que son sus hijos le de es margen */   
+    nav > a {
         text-decoration: none;
         color: black;
         font-family:sans-serif;
         font-size: 1.25rem;
         font-weight: bold;
-    
+        margin-left: 2.25rem;
     }
-    
-    /* esto significa que a las "a" que son sus hijos le de es margen */
-    nav > a {
-        margin-left: 3.25rem;
-    }
-    
-  .btnNav:hover{
+       
+  /* .btnNav:hover{
         background: black;
         color: white;
         border-color: transparent;
-    }
+    } */
 
-.hamburguesa{
+/* .hamburguesa{
     color: black;
     display:none;
     cursor: pointer;
     font-size: 32px;
-} 
- 
+}  */
 
-/* CSS de HERO
-.hero{
+ /* Responsive del Header  */
+
+ @media (max-width:900px) {
+    nav {
+        display: none; 
+    }
+    header{
+        justify-content: space-evenly;
+    }
+}
+
+@media(max-width:500px){
+   .logo{
+       display: none;
+    }
+    header{
+        justify-content: flex-start;
+        margin-left: 10%;
+    }
+}
+
+/*CSS de HERO*/
+.contenedorHero{
     height: 100vh;
-    background-color: aqua;
+    display: flex;
+    
+}
+.contenedorDisponible{
+    display: flex;
+    width: 100%;
+    background-color: red;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedorGTIT{
     flex-direction: column;
+    background-color: green;
+    width: 100%;
+}
+
+.contenedorGT{
+    display: flex;
+    height: 50vh;
+    width: 100%;
+    background-color: brown;
+    align-items: center;
+    justify-content: center;
+}
+.contenedorIT{
+    display: flex;
+    height: 50vh;
+    width: 100%;
+    background-color: blue;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Responsive HERO */
+@media (max-width:900px) {
+    .contenedorHero{
+        flex-direction: column;
+    }
+
+    .contenedorDisponible{
+       height: 50vh;
+       width: 100%;
+    }
+    .contenedorGTIT{
+        display: flex;
+        flex-direction: row;
+        height: 50vh;
+    }
+    .contenedorGT{
+        display: flex;
+        
+        width: 50%;
+
+    }
+    .contenedorIT{
+        display: flex;
+        height: 50vh;
+        width: 50%;
+
+    }
+    
 }
 
 
+/*
 .contenedorHero{
     display: flex;
     align-items: center;
