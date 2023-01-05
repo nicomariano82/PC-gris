@@ -69,7 +69,6 @@ html{
 .contenedorDisponible{
     display: flex;
     width: 100%;
-    background-color: red;
     align-items: center;
     justify-content: center;
 }
@@ -127,7 +126,54 @@ html{
     
 }
 
+/* CSS del ingresar saldo*/
+.contenedorIS{
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4rem;
+}
 
+.contenedorIngreseG{
+    background-color:aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4rem;
+}
+
+.contenedordetalleG{
+    background-color:grey;
+    flex-direction: column;
+    text-align: center;
+ }
+
+ .contenedorGastosvarios{
+    background-color:aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4rem;
+}
+
+.concepto{
+    height: 100%;
+    width: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-right: 0.5rem;
+}
+
+
+/*
+<div>
+                <input type="text" name="" placeholder="Monto de Gasto" class="input"> 
+            </div>
+            <div>
+                <p>Icono + o de cargar gasto</p>
+            </div>*/
 /*
 .contenedorHero{
     display: flex;
