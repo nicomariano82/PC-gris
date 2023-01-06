@@ -63,37 +63,79 @@ html{
 /*CSS de HERO*/
 .contenedorHero{
     height: 100vh;
+    width: 100vw;
     display: flex;
-    
-}
-.contenedorDisponible{
-    display: flex;
-    width: 100%;
-    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 4rem;
+    color: #326789;
+    background-color: green;
     justify-content: center;
 }
+
+p{
+    font-size: 2rem;
+    color: #326789;
+}
+
+.centrado{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedorDisponible{
+    flex-direction: column;
+    display: flex;
+    height: 90vh;
+    width: 20rem;
+    align-items: center;
+    justify-content: center;
+    border:solid;
+    border-color:#78A6C8 ;
+    border-radius: 1.5rem;
+    background-color: #E9EEF2;
+    /*background-color: #94989B;*/
+   /* margin: 1rem 2rem 3rem 5rem;*/
+    /*top rigth buttom left*/
+   }
+
+
 
 .contenedorGTIT{
     flex-direction: column;
-    background-color: green;
     width: 100%;
+    height: 100vh;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .contenedorGT{
+    flex-direction: column;
     display: flex;
-    height: 50vh;
-    width: 100%;
-    background-color: brown;
+    height: 40vh;
     align-items: center;
     justify-content: center;
+    border:solid;
+    border-color:#78A6C8 ;
+    border-radius: 1.5rem;
+    background-color: #E9EEF2;
+    margin-bottom: 4rem;
+      
 }
 .contenedorIT{
+    flex-direction: column;
     display: flex;
-    height: 50vh;
-    width: 100%;
-    background-color: blue;
+    height: 40vh;
     align-items: center;
     justify-content: center;
+    border:solid;
+    border-color:#78A6C8 ;
+    border-radius: 1.5rem;
+    background-color: #E9EEF2;
+    
 }
 
 /* Responsive HERO */
