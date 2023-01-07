@@ -26,11 +26,13 @@
 
         <section class="contenedorHero"> 
             <div class="centrado">
+            
             <div class="contenedorDisponible">
             <ol><span>$</span>10000</ol> 
             <p>Saldo Disponible</p>
             </div>
-            </div>
+            
+           </div>
         
             <div class="contenedorGTIT">
             
@@ -44,57 +46,64 @@
             <p>Ingresos Totales</p>
             </div> 
         </div> 
-        
-        
-        </section>
+         </section>
 
+         <!-- En esta seccion es donde se debe ingreasar Saldo a la Billetra -->
         <section class="contenedorIS" id="ingresarsaldo">
-            <div>
-                <h2>Ingresar Saldo</h2>
-            </div>
+            
+            <button class="Btntitulosection"> <h2>Ingresar Saldo</h2> </button>
+            
            <div class="contenedordeIngresarSaldo">
-            <div>
-                <span>$</span><input type="number" name="" placeholder="Ingresar Saldo" class="input">       
-                <a href="#"><button><i class="bi bi-plus-lg"></i></button></a> 
-            </div>
+           
+            <span class="peso">$</span><input type="number" name="" placeholder="Ingresar Saldo" class="input">       
+            <a href="#"><button class="Btnplus"><i class="bi bi-plus-lg"></i></button></a> 
+            
             </div>
         </section> 
 
+        <!-- En esta seccion es donde se debe ingresar Los gastos -->
         <section class="contenedorIngreseG" id="ingresargastos">
-            <div>
-                <h2>Ingresar Gastos</h2>
-            </div>
+            
+            <button class="Btntitulosection"><h2>Ingresar Gastos</h2> </button>
+            
             
             <div class="contenedorIngresarGastos">
-            <div>
+            
                 <input type="text" name="" placeholder="Concepto de Gasto" class="input">  
-            </div>
+                       
+                <span class="peso">$</span>
+                <input type="number" name="" placeholder="Monto de Gasto" class="input"> 
+            
             <div>
-                <span>$</span><input type="number" name="" placeholder="Monto de Gasto" class="input"> 
-            </div>
-            <div>
-                <a href="#"><button><i class="bi bi-plus-lg"></i></button></a> 
+                <a href="#"><button class="Btnplus"><i class="bi bi-plus-lg"></i></button></a> 
             </div>
             </div>
 
         </section> 
          
-
+        <!-- En esta seccion es donde Unicamente se muestra el detalle de la Billetra -->
         <section class="contenedordetalleG" id="gastos">
-            <div>
-                <h2>Gastos</h2>
-            </div>
+            
+            <button class="Btntitulosection"><h2>Gastos</h2></button>
+                       
+         <div class="contenedorGastosvarios">
            
-            <div class="contenedorGastosvarios">
-            <div class="concepto">
-                <ol>concepto de gasto</ol>
-                <span>$</span><ol>Monto</ol>
+           
+               <button class="concepto">  
+                <input type="text" name="" placeholder="" class="input">  
+                  
+                <span class="peso">$</span>
+                <input type="number" name="" placeholder="" class="input"> 
+               </button>
             <div class="basura">
-                <a href="#"><i class="bi bi-trash"></i></a> 
+                <a href="#"><button class="Btnplus" ><i class="bi bi-trash"></i></button></a> 
             </div>
+
             </div>
-        </section> 
          
+
+        </section> 
+          
     </main>
 
 
