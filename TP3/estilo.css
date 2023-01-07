@@ -12,8 +12,10 @@ html{
         display: flex;
         justify-content: space-around;
         align-items: center;
-        background-color: white;
+        color: black;
         height: 6rem;
+        background-color: #ffff;
+        font-family:sans-serif;
         }
       
      /* esto significa que a las "a" que son sus hijos le de es margen */   
@@ -68,7 +70,7 @@ html{
     font-family: 'Poppins', sans-serif;
     font-size: 4rem;
     color: #326789;
-    background-color: green;
+    background-color: #ffff;
     justify-content: center;
 }
 
@@ -87,12 +89,12 @@ p{
 .contenedorDisponible{
     flex-direction: column;
     display: flex;
-    height: 90vh;
-    width: 20rem;
+    height: 29rem;
+    width: 25rem;
     align-items: center;
     justify-content: center;
     border:solid;
-    border-color:#78A6C8 ;
+    border-color:#78A6C8;
     border-radius: 1.5rem;
     background-color: #E9EEF2;
     /*background-color: #94989B;*/
@@ -106,7 +108,6 @@ p{
     flex-direction: column;
     width: 100%;
     height: 100vh;
-    background-color: aqua;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -115,7 +116,8 @@ p{
 .contenedorGT{
     flex-direction: column;
     display: flex;
-    height: 40vh;
+    height: 15rem;
+    width: 25rem;
     align-items: center;
     justify-content: center;
     border:solid;
@@ -128,7 +130,8 @@ p{
 .contenedorIT{
     flex-direction: column;
     display: flex;
-    height: 40vh;
+    height: 15rem;
+    width: 25rem;
     align-items: center;
     justify-content: center;
     border:solid;
@@ -142,57 +145,147 @@ p{
 @media (max-width:900px) {
     .contenedorHero{
         flex-direction: column;
+        font-size: 2.2rem;
     }
-
+    p{
+        font-size: 1rem;
+        color: #326789;
+    }
+    .centrado{
+        height: 50vh;
+        width: 100%;
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+    }
     .contenedorDisponible{
-       height: 50vh;
-       width: 100%;
+       height: 12.5rem;
+       width: 20rem;
+
     }
     .contenedorGTIT{
         display: flex;
         flex-direction: row;
+        align-items: baseline;
         height: 50vh;
+        width: 100%;
     }
     .contenedorGT{
         display: flex;
+        height: 12.5rem;
+        width: 13rem;
+        margin-right: 1rem;
         
-        width: 50%;
-
+       
     }
     .contenedorIT{
         display: flex;
-        height: 50vh;
-        width: 50%;
+        height: 12.5rem;
+        width: 13rem;
+        margin-left: 1rem;
+        
 
     }
     
 }
+@media (max-width:500px) {
+    .contenedorHero{
+        flex-direction: column;
+        height: 50vh;
+        font-size: 2.2rem;
+    }
 
+    p{
+        font-size: 1rem;
+        color: #326789;
+    }
+    .centrado{
+        height: 20vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        margin-bottom: 2rem;
+        }
+    .contenedorDisponible{
+       height: 20vh;
+       width: 100%;
+       margin: 2rem;
+       border-radius: 15px;
+    }
+
+    .contenedorGTIT{
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        height: 20vh;
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    .contenedorGT{
+        display: flex;
+        height: 12.5rem;
+        width: 8rem;
+        margin-right: 1rem; 
+        height: 20vh;     
+    }
+    .contenedorGT > ol {
+        font-size: 1rem;
+    }
+    .contenedorGT > p {
+        font-size: 0.8rem;
+    }
+
+    .contenedorIT{
+        display: flex;
+        height: 12.5rem;
+        width: 8rem;
+        margin-left: 1rem;
+        height: 20vh; 
+         
+    }
+    
+    .contenedorIT > ol {
+        font-size: 1rem;
+    }
+
+    .contenedorIT > p {
+        font-size: 0.8rem;
+    }
+}
 /* CSS del ingresar saldo*/
+
 .contenedorIS{
-    background-color: red;
+    flex-direction: column;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 4rem;
+    margin-top: 2rem;
+}
+
+.contenedordeIngresarSaldo{
+    display: flex;
 }
 
 .contenedorIngreseG{
-    background-color:aqua;
+    flex-direction: column;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 4rem;
 }
+s
+.contenedorIngresarGastos{
+    display: flex;
+}
 
 .contenedordetalleG{
-    background-color:grey;
     flex-direction: column;
     text-align: center;
  }
 
  .contenedorGastosvarios{
-    background-color:aqua;
     display: flex;
     align-items: center;
     justify-content: center;
