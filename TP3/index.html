@@ -16,8 +16,8 @@
         <a class="logo" href="#"> <img class="logo" src="./imagen/logo.png" alt="Logo estrella"> </a> 
         <h1>¡Hola, Nicolás!</h1>
     <nav>
-        <a href="#">Billetera</a>
         <a href="#ingresarsaldo">Ingresar Saldo</a>
+        <a href="#ingresargastos">Ingresar Gasto</a>
         <a href="#gastos">Gastos</a>
     </nav>
    </header>
@@ -50,34 +50,45 @@
 
         <section class="contenedorIS" id="ingresarsaldo">
             <div>
-                <input type="text" name="" placeholder="Ingresar Saldo" class="input">       
+                <h2>Ingresar Saldo</h2>
+            </div>
+           <div class="contenedordeIngresarSaldo">
+            <div>
+                <span>$</span><input type="number" name="" placeholder="Ingresar Saldo" class="input">       
                 <a href="#"><button><i class="bi bi-plus-lg"></i></button></a> 
+            </div>
             </div>
         </section> 
 
-        <section class="contenedorIngreseG" id="gastos">
+        <section class="contenedorIngreseG" id="ingresargastos">
+            <div>
+                <h2>Ingresar Gastos</h2>
+            </div>
+            
+            <div class="contenedorIngresarGastos">
             <div>
                 <input type="text" name="" placeholder="Concepto de Gasto" class="input">  
             </div>
             <div>
-                <input type="text" name="" placeholder="Monto de Gasto" class="input"> 
+                <span>$</span><input type="number" name="" placeholder="Monto de Gasto" class="input"> 
             </div>
             <div>
                 <a href="#"><button><i class="bi bi-plus-lg"></i></button></a> 
             </div>
+            </div>
+
         </section> 
          
 
-        <section class="contenedordetalleG">
+        <section class="contenedordetalleG" id="gastos">
             <div>
                 <h2>Gastos</h2>
             </div>
            
             <div class="contenedorGastosvarios">
             <div class="concepto">
-                <span>concepto de gasto</span>
-                <span>Monto</span>
-            </div>
+                <ol>concepto de gasto</ol>
+                <span>$</span><ol>Monto</ol>
             <div class="basura">
                 <a href="#"><i class="bi bi-trash"></i></a> 
             </div>
