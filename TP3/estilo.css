@@ -31,11 +31,31 @@ html{
         text-decoration: none;
         color: black;
         font-family:sans-serif;
-        font-size: 1.25rem;
+        font-size: 1.5rem;
         font-weight: bold;
-        margin-left: 2.25rem;
+        margin-left: 1rem;
     }
        
+    .logo{
+        width: 250px;
+    }
+
+    .Btndianoche {
+        padding: 10px;
+        position: relative;
+        border-radius: 100px;
+        border-color: var(--colorborde);
+        width: 80px;
+        display: flex;
+        justify-content: space-between;        
+    }
+
+    .Btndianoche > i{
+        font-size: 20px;
+        
+    }
+
+
   /* .btnNav:hover{
         background: black;
         color: white;
@@ -56,7 +76,7 @@ html{
         display: none; 
     }
     header{
-        justify-content: space-evenly;
+        justify-content: space-between;
     }
 }
 
@@ -65,7 +85,7 @@ html{
        display: none;
     }
     header{
-        justify-content: flex-start;
+        justify-content: space-between;
         margin-left: 10%;
     }
 }
@@ -73,12 +93,12 @@ html{
 /*CSS de HERO*/
 .contenedorHero{
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     display: flex;
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--fuenteletras);
     font-size: 4rem;
     color: #326789;
-    background-color: #ffff;
+    background-color:#ffff;
     justify-content: center;
 }
 
@@ -87,24 +107,29 @@ p{
     color: #326789;
 }
 
+ol{
+  font-size: 4rem;
+   color: #326789;   
+}
 .centrado{
     height: 100vh;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.contenedorDisponible{
+    } 
+
+.BtnDisponible{
     flex-direction: column;
     display: flex;
-    height: 29rem;
-    width: 25rem;
+    height: 700px;
+    width: 500px;
     align-items: center;
     justify-content: center;
     border:solid;
     border-color:#78A6C8;
-    border-radius: 1.5rem;
-    background-color: #E9EEF2;
+    border-radius: 30px;
+    background-color: #E9EEF2; /**/
     /*background-color: #94989B;*/
    /* margin: 1rem 2rem 3rem 5rem;*/
     /*top rigth buttom left*/
@@ -121,30 +146,30 @@ p{
     align-items: center;
 }
 
-.contenedorGT{
+.BtnGT{
     flex-direction: column;
     display: flex;
-    height: 15rem;
-    width: 25rem;
+    height: 320px;
+    width: 500px;
     align-items: center;
     justify-content: center;
     border:solid;
     border-color:#78A6C8 ;
-    border-radius: 1.5rem;
+    border-radius: 30px;
     background-color: #E9EEF2;
-    margin-bottom: 4rem;
+    margin-bottom: 60px;
       
 }
-.contenedorIT{
+.BtnIT{
     flex-direction: column;
     display: flex;
-    height: 15rem;
-    width: 25rem;
+    height: 320px;
+    width: 500px;
     align-items: center;
     justify-content: center;
     border:solid;
     border-color:#78A6C8 ;
-    border-radius: 1.5rem;
+    border-radius: 30px;
     background-color: #E9EEF2;
     
 }
@@ -159,6 +184,10 @@ p{
         font-size: 1rem;
         color: #326789;
     }
+
+    ol{
+        font-size: 3rem;
+    }
     .centrado{
         height: 50vh;
         width: 100%;
@@ -166,9 +195,9 @@ p{
         justify-content: center;
         align-items: center; */
     }
-    .contenedorDisponible{
-       height: 12.5rem;
-       width: 20rem;
+    .BtnDisponible{
+       height: 200px;
+       width: 400px;
 
     }
     .contenedorGTIT{
@@ -177,20 +206,21 @@ p{
         align-items: baseline;
         height: 50vh;
         width: 100%;
+        
     }
-    .contenedorGT{
+    .BtnGT{
         display: flex;
-        height: 12.5rem;
-        width: 13rem;
+        height: 200px;
+        width: 195px;
         margin-right: 1rem;
         
        
     }
-    .contenedorIT{
+    .BtnIT{
         display: flex;
-        height: 12.5rem;
-        width: 13rem;
-        margin-left: 1rem;
+        height: 200px;
+        width:  195px;
+        margin-left: 10px;
         
 
     }
@@ -204,8 +234,12 @@ p{
     }
 
     p{
-        font-size: 1rem;
+        font-size: 0.8rem;
         color: #326789;
+    }
+
+    ol{
+        font-size: 1.5rem;
     }
     .centrado{
         height: 20vh;
@@ -213,53 +247,46 @@ p{
         display: flex;
         justify-content: center;
         align-items: center; 
-        margin-bottom: 2rem;
         }
-    .contenedorDisponible{
-       height: 20vh;
-       width: 100%;
+
+    .BtnDisponible{
+       height: 80px;
+       width: 250px;
        margin: 2rem;
-       border-radius: 15px;
+       border-radius: 20px;
+       margin-bottom: 70px;
     }
 
     .contenedorGTIT{
         display: flex;
         flex-direction: row;
+        justify-content: center;
         align-items: baseline;
         height: 20vh;
         width: 100%;
-        margin-bottom: 2rem;
+                
     }
-    .contenedorGT{
+    .BtnGT{
         display: flex;
-        height: 12.5rem;
-        width: 8rem;
+        height: 80px;
+        width: 120px;
         margin-right: 1rem; 
-        height: 20vh;     
-    }
-    .contenedorGT > ol {
-        font-size: 1rem;
-    }
-    .contenedorGT > p {
-        font-size: 0.8rem;
+        border-radius: 20px;
+             
     }
 
-    .contenedorIT{
+
+    .BtnIT{
         display: flex;
-        height: 12.5rem;
-        width: 8rem;
+        height: 80px;
+        width: 120px;
         margin-left: 1rem;
-        height: 20vh; 
+        border-radius: 20px;
+         
          
     }
     
-    .contenedorIT > ol {
-        font-size: 1rem;
-    }
-
-    .contenedorIT > p {
-        font-size: 0.8rem;
-    }
+   
 }
 
 /* CSS del ingresar saldo*/
@@ -328,8 +355,8 @@ h2{
 }
 
  .contenedorGastosvarios{
-    display: none;
-    /* display: flex; */ /*IMPORTANTE dar DE BAJA*/
+    /*display: none;*/
+     display: flex;  /*IMPORTANTE dar DE BAJA*/
     align-items: center;
     justify-content: center;
 }
