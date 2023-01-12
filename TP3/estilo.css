@@ -191,15 +191,14 @@ ol{
     .centrado{
         height: 50vh;
         width: 100%;
-        /* display: flex;
-        justify-content: center;
-        align-items: center; */
-    }
+        }
+
     .BtnDisponible{
        height: 200px;
        width: 400px;
-
+           
     }
+
     .contenedorGTIT{
         display: flex;
         flex-direction: row;
@@ -325,6 +324,17 @@ h2{
     align-content: center;
     
 }
+.input{
+   border-color: var(--colorbordeInput); 
+   height: 50px;
+   margin: 0 50px 0 5px;
+   border-radius: 10px;
+   text-indent: 4px;
+   font-size: 1.5rem;
+   width: 250px;
+   }
+
+
 
 /*CSS de ingesar Gastos*/
 .contenedorIngreseG{
@@ -341,13 +351,7 @@ h2{
     justify-content: baseline;
 }
 
-.input{
-    border-color: var(--colorbordeInput);
-    height: 30px;
-    margin: 0 50px 0 5px;
-    border-radius: 2px;
-    text-indent: 4px;
-}
+
 /* CSS Detaalles de gastos */
 .contenedordetalleG{
     flex-direction: column;
@@ -380,6 +384,7 @@ h2{
 .Btnplus > i{
     color: var(--colordeletrastitulos);
     font-size: 1.5rem;
+    font-weight: bold;
 
 }
 
@@ -397,3 +402,122 @@ h2{
     border-radius: 2px;
     text-indent: 4px;background-color: transparent;
 }
+
+
+/* ----------------------------------------------- */
+@media (max-width:900px) {
+    /* responsive del CSS del ingresar saldo*/
+
+
+.Btntitulosection {
+    padding: 12px;
+    border: none;
+    background-color: var(--colorRellenotitulos);
+    border-radius: 20px;
+    margin: 20px;
+    width: 400px;
+}
+
+h2{
+    color: var(--colordeletrastitulos);
+    font-size: 1.5rem;
+    font-weight: medium;
+}
+
+
+.contenedordeIngresarSaldo{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    
+}
+.input{
+   border-color: var(--colorbordeInput); 
+   height: 40px;
+   margin: 0 30px 0 5px;
+   border-radius: 10px;
+   text-indent: 4px;
+   font-size: 1rem;
+   width: 150px;
+   }
+
+   .peso{
+    font-size: 1.2rem;
+    }
+
+
+/* CSS Detalles de gastos */
+.contenedordetalleG{
+    border-top: solid;
+    border-top-left-radius: 20px ;
+    border-top-right-radius: 20px;
+    border-top-color: var(--colorborde);
+    border-top-width: 2px;
+      
+}
+
+.Btnmov > h2{
+    color:black;
+    text-align: start;
+}
+
+.Btnmov{
+    background-color:white;
+}
+
+
+ .contenedorGastosvarios{
+    /*display: none;*/
+     display: flex;  /*IMPORTANTE dar DE BAJA*/
+    align-items: center;
+    justify-content: center;
+}
+
+.concepto{
+    
+}
+
+
+.Btnplus{
+    border: none;
+    background-color: var(--colorRellenotitulos);
+    border-radius: 10px;
+    width: 40px;
+    height: 40px;
+    
+}
+
+.Btnplus > i{
+    color: var(--colordeletrastitulos);
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+
+.concepto{
+    border: none;
+    background-color: transparent;
+    /* border-bottom-color: ; */
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    
+}
+
+.concepto >.input{
+    border: none;
+    height: 30px;
+    margin: 0 50px 0 5px;
+    border-radius: 2px;
+    text-indent: 4px;background-color: transparent;
+}
+
+}
+
+/* ---------------------CELU-------------------------- */
+/* @media (max-width:500px) {
+    /* responsive del CSS del ingresar saldo
+
+
+}    
+*/
